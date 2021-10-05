@@ -1,0 +1,80 @@
+<html>
+<style>
+    body {
+        background-color: #55ddd5;
+    }
+
+    h1,
+    span {
+        text-align: center;
+        font-family: 'Helvetica Neue';
+        margin: 20px 20px;
+        color: #277e5f;
+    }
+
+    p {
+        text-align: center;
+        color: #277e5f;
+    }
+
+    td {
+        font-family: 'Helvetica Neue';
+        font-size: 18px;
+        color: #277e5f;
+    }
+
+    input[type=password] {
+        border: 2px solid #277e5f;
+        border-radius: 8px;
+        padding: 8px 40px;
+        margin: 5px 20px;
+        cursor: pointer;
+    }
+
+    input[type=submit] {
+        background-color: white;
+        border: 2px solid #277e5f;
+        font-family: 'Helvetica Neue';
+        font-size: 14px;
+        border-radius: 8px;
+        color: #277e5f;
+        padding: 8px 108px;
+        margin: 5px 20px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <h1>
+        <span>
+            Humidity Soil Sensor
+        </span>
+    </h1>
+    <h1>
+        <span>
+            Wi-Fi Setup
+        </span>
+    </h1>
+    <form action="configure" method="post">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="ssid" value="{0}" /> SSID_WIFI
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <input name="password" type="password" placeholder="Password" />
+        </p>
+        <p>
+            <input type="submit" value="Connect" />
+        </p>
+    </form>
+</body>
+<label style="margin-top: 18px; color:#277e5f; display: block; text-align: center;">
+    By Ailton Fidelix - 2021</label>
+<br>
+
+</html>
